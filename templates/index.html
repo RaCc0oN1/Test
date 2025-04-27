@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+
+        table.center {
+        margin-left: auto;
+        margin-right: auto;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Price</th>
+                <th>Shares</th>
+                <th>Total price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> {{ cash }} </td>
+                <td> {{ cash }} </td>
+                <td> {{ cash }} </td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
